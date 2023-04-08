@@ -1,8 +1,5 @@
 {
-    "bootloader": "caterina",
-    "encoder": {
-        "rotary": []
-    },
+    "diode_direction": "COL2ROW",
     "features": {
         "audio": false,
         "bootmagic": false,
@@ -13,6 +10,34 @@
         "mousekey": false,
         "nkro": false,
         "rgblight": false
+    },
+    "keyboard_name": "giabalanai",
+    "maintainer": "3araht",
+    "manufacturer": "3araht",
+    "matrix_pins": {
+        "cols": [
+            "B1",
+            "F7",
+            "F6",
+            "F5",
+            "F4",
+            "B3",
+            "B2",
+            "B6",
+            "D0",
+            "D1"
+        ],
+        "rows": [
+            "B5",
+            "B4",
+            "E6",
+            "D7",
+            "C6",
+            "D4"
+        ]
+    },
+    "rgb_matrix": {
+        "driver": "WS2812"
     },
     "split": {
         "enabled": true,
