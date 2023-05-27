@@ -1,5 +1,4 @@
 {
-    "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "features": {
         "audio": false,
@@ -1803,6 +1802,9 @@
     "rgb_matrix": {
         "driver": "WS2812"
     },
+    "rgblight": {
+        "max_brightness": 80
+    },
     "split": {
         "enabled": true,
         "encoder": {
@@ -1839,5 +1841,11 @@
                 ]
             }
         }
+    },
+    "url": "https://github.com/3araht",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0xF4B0",
+        "vid": "0xFEED"
     }
 }
