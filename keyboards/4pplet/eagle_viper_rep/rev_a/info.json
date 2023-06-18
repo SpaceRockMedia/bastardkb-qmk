@@ -1764,6 +1764,9 @@
         ]
     },
     "processor": "STM32F072",
+    "rgblight": {
+        "led_count": 16
+    },
     "url": "https://github.com/4pplet/eagle_viper_rep",
     "usb": {
         "device_version": "0.0.1",
