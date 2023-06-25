@@ -969,16 +969,19 @@
         ]
     },
     "processor": "atmega32u4",
+    "qmk": {
+        "tap_keycode_delay": 10
+    },
+    "rgblight": {
+        "brightness_steps": 8,
+        "led_count": 16,
+        "saturation_steps": 8,
+        "sleep": true
+    },
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0002",
         "vid": "0x4450"
-    },
-    "rgblight": {
-        "saturation_steps": 8,
-        "brightness_steps": 8,
-        "led_count": 16,
-        "sleep": true
     },
     "ws2812": {
         "pin": "F7"
