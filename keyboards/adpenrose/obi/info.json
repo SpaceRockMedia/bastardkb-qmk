@@ -1,5 +1,4 @@
 {
-    "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "encoder": {
         "rotary": [
