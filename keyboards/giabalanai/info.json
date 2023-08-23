@@ -1804,7 +1804,7 @@
         "tap_keycode_delay": 10
     },
     "rgb_matrix": {
-        "driver": "WS2812"
+        "driver": "ws2812"
     },
     "rgblight": {
         "led_count": 123,
