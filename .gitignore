@@ -58,14 +58,14 @@ CMakeLists.txt
 *.pdf
 
 # Let these ones be user specific, since we have so many different configurations
-*.code-workspace
+#*.code-workspace
 .stfolder
 .tags
 .vscode/c_cpp_properties.json
 .vscode/ipch/
 .vscode/last.sql
-.vscode/launch.json
-.vscode/tasks.json
+#.vscode/launch.json
+#.vscode/tasks.json
 .vscode/temp.sql
 tags
 

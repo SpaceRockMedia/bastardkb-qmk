@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "command": "clear && qmk compile -kb splitkb/kyria/rev3 -km spacerock",
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "Build kyria",
+      "type": "shell"
+    },
+    {
+      "command": "clear && qmk compile -kb hillside/52 -km spacerock",
+      "group": {
+        "isDefault": false,
+        "kind": "build"
+      },
+      "label": "Build hillside",
+      "type": "shell"
+    }
+  ],
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0"
+}

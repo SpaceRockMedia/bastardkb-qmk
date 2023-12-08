@@ -1,0 +1,66 @@
+{
+        "folders": [
+                {
+                        "name": "QMK",
+                        "path": "."
+                },
+                {
+                        "name": "keyboards/kyria",
+                        "path": "keyboards/splitkb/kyria"
+                },
+                {
+                        "name": "keyboards/reviung",
+                        "path": "keyboards/reviung/reviung41"
+                },
+                {
+                        "name": "keyboards/klor",
+                        "path": "keyboards/klor"
+                },
+                {
+                        "name": "keyboards/hillside52",
+                        "path": "keyboards/hillside/52"
+                },
+                {
+                        "name": "keyboards/klor.bgl314",
+                        "path": "keyboards/klor.bgl314"
+                },
+                {
+                        "name": "users/spacerock",
+                        "path": "users/spacerock"
+                },
+                {
+                        "name": "users/drashna",
+                        "path": "users/drashna"
+                },
+                {
+                        "name": "secrets",
+                        "path": "../qmk_secrets"
+                }
+        ],
+        "settings": {
+                "files.associations": {
+                        "*.c": "c",
+                        "*.cpp": "cpp",
+                        "*.h": "c",
+                        "*.hpp": "cpp",
+                        "*.inc": "c",
+                        "ranges": "c",
+                        "type_traits": "c",
+                        "utility": "c",
+                        "xstddef": "c"
+                },
+                "terminal.integrated.cursorStyle": "line",
+                "terminal.integrated.profiles.windows": {
+                        "QMK_MSYS": {
+                                "args": [
+                                        "--login"
+                                ],
+                                "env": {
+                                        "CHERE_INVOKING": "1",
+                                        "MSYSTEM": "MINGW64"
+                                },
+                                "path": "C:/QMK_MSYS/usr/bin/bash.exe"
+                        }
+                }
+        }
+}
