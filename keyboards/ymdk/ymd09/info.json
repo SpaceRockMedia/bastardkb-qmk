@@ -30,6 +30,11 @@
     "build": {
         "lto": true
     },
+    "diode_direction": "ROW2COL",
+    "matrix_pins": {
+        "cols": ["D6", "D2", "D1"],
+        "rows": ["F5", "F4", "F1"]
+    },
     "layouts": {
         "LAYOUT": {
             "layout": [
